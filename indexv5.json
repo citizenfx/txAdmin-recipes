@@ -33,5 +33,12 @@
         "tags": ["fivem", "racing"],
         "description": "Race solo or compete against other players to level up your character and vehicle via missions and daily events.",
         "url": "https://raw.githubusercontent.com/streetkings-fivem/txAdminRecipe/refs/heads/main/streetkings.yaml"
+    },
+    {
+        "engine": 3,
+        "name": "WarfareTacticsV (Real-Time Strategy)",
+        "tags": ["fivem", "rts"],
+        "description": "Standalone game mode. Platoon-based combat, 5 maps, 24 unit types, CPU AI opponents, matchmaking & more.",
+        "url": "https://raw.githubusercontent.com/FiveM-RTS-WarfareTactics/txAdminRecipe/refs/heads/main/recipe.yaml"
     }
 ]
