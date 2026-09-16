@@ -29,6 +29,13 @@
     },
     {
         "engine": 3,
+        "name": "vMenu",
+        "tags": ["fivem", "freeroam"],
+        "description": "A custom server sided trainer/menu for FiveM, including full permission support.",
+        "url": "https://raw.githubusercontent.com/tabarra/vMenu-recipe/refs/heads/main/recipe.yaml"
+    },
+    {
+        "engine": 3,
         "name": "StreetKings",
         "tags": ["fivem", "racing"],
         "description": "Race solo or compete against other players to level up your character and vehicle via missions and daily events.",
