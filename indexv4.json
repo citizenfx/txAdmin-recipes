@@ -32,7 +32,7 @@
         "name": "vMenu",
         "tags": ["fivem", "freeroam"],
         "description": "A custom server sided trainer/menu for FiveM, including full permission support.",
-        "url": "https://raw.githubusercontent.com/tabarra/vMenu-recipe/refs/heads/main/recipe.yaml"
+        "url": "https://raw.githubusercontent.com/feelfreetofee/vMenu-recipe/refs/heads/main/recipe.yaml"
     },
     {
         "engine": 3,
