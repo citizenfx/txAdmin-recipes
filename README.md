@@ -9,7 +9,7 @@ Please check the **[Recipe Documentation Page](https://github.com/tabarra/txAdmi
 - [ESX Legacy](https://github.com/esx-framework/ESX-recipes)
 - [Qbox Framework](https://github.com/Qbox-project/txAdminRecipe)
 - [QBCore Framework](https://github.com/qbcore-framework/txAdminRecipe)
-- [vMenu](https://github.com/TomGrobbe/vMenu) & [Recipe Patch](https://github.com/feelfreetofee/vMenu-recipe)
+- [vMenu Enhanced](https://github.com/TomGrobbe/vMenu)
 - [StreetKings](https://github.com/streetkings-fivem/txAdminRecipe)
 - [WarfareTacticsV (Real-Time Strategy)](https://github.com/FiveM-RTS-WarfareTactics/txAdminRecipe)
 - [VORP Core](https://github.com/VORPCORE/VORP_txAdmin)
@@ -17,7 +17,7 @@ Please check the **[Recipe Documentation Page](https://github.com/tabarra/txAdmi
 - [~~PlumeESX Legacy~~](https://github.com/tabarra/PlumeESX-recipe) (deprecated)
 
 ## Recipe-making Guidelines and Best Practices:
-- Always start your recipe based on the CFX Default recipe. Copy the structure from server.cfg, resources folder, and recipe YAML;
+- Always start your recipe based on the Cfx Default recipe. Copy the structure from `server.cfg`, resources folder, and recipe YAML;
 - The recipe must "just work", without the user needing to edit anything before starting the server, like database credentials;
 - Database stuff:
     - Preferable use the `{{dbConnectionString}}` placeholder in `server.cfg` instead of writing to some database config file;
@@ -28,8 +28,6 @@ Please check the **[Recipe Documentation Page](https://github.com/tabarra/txAdmi
 - Make sure your scripts/framework recognize users with the `admin` ACE group as script/framework admins. This can be done every time the player joins or even on his first join ([esx-legacy example](https://github.com/esx-framework/esx-legacy/commit/e265976561f6c72c9d95032861638c38b4505d20));
 - If your recipe requires `download_github` from an external third party repository, it is recommended that you set the reference parameter, preferably to a commit instead of a tag, since tags can change. This guarantees that no recipe-breaking change will be introduced by some random commit;
 - When downloading, extracting and moving Zip files, group the 3 actions so it is easier to find it after;
-- Recipes must be onesync compatible, even if just `legacy`;
-- Always set `$onesync` to `on` if your recipe supports it;
 - Considering that most people are not familiar with what your recipe is installing, guarantee a good onboarding experience with the following:
     - The loading screen must clearly state what that framework is, and how to use it like keys to press and etc ([plume example](https://i.imgur.com/BREZLDW.png));
     - On important files like `server.cfg`, leave plenty of comments instructing the admin how to use or configure your framework;
@@ -41,7 +39,7 @@ Please check the **[Recipe Documentation Page](https://github.com/tabarra/txAdmi
     - If you need any help or need any kind of integration, open an issue or contact the txAdmin Maintainer;
 - Your recipe must not violate or facilitate violation of any license or copyright, so it should only contain resources that are open source (eg GPLv3/MIT/Apache) or sharable (eg Creative Commons). Please make sure it does not contain any leaked content. Although it is hard to find a scenario where a recipe could _directly_ violate any license, this is a headache that we must try to avoid;
 - When available, use `system_resources` versions of resources from the now-arquived `cfx-server-data` (eg the chat resource);
-- Set the game build to the same in the CFX Default recipes;
+- Set the game build to the same in the Cfx Default recipes;
 
 ****
 <p align="center">
