@@ -67,6 +67,6 @@
         "name": "JRS Core",
         "tags": ["redm", "roleplay"],
         "description": "Free, open-source RedM RP framework (GPLv3): core, inventory, character creator, clothing, jobs, economy & more. English and Arabic.",
-        "url": "https://raw.githubusercontent.com/JRS-CORE/jrscore/main/recipe/jrscore.yaml"
+        "url": "https://raw.githubusercontent.com/JRS-CORE/JRS_txAdmin/main/jrs_recipe.yaml"
     }
 ]
