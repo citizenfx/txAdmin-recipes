@@ -13,6 +13,7 @@ Please check the **[Recipe Documentation Page](https://github.com/tabarra/txAdmi
 - [StreetKings](https://github.com/streetkings-fivem/txAdminRecipe)
 - [WarfareTacticsV (Real-Time Strategy)](https://github.com/FiveM-RTS-WarfareTactics/txAdminRecipe)
 - [VORP Core](https://github.com/VORPCORE/VORP_txAdmin)
+- [JRS Core](https://github.com/JRS-CORE/jrscore)
 - [~~ZAP-Hosting ESX Pack~~](https://github.com/zap-fivem/esx_12_recipe) (deprecated)
 - [~~PlumeESX Legacy~~](https://github.com/tabarra/PlumeESX-recipe) (deprecated)
 
