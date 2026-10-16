@@ -61,5 +61,12 @@
         "tags": ["redm", "roleplay"],
         "description": "VORP is the leading RP Framework for RedM containing various jobs, stables, hunting, housing & more!",
         "url": "https://raw.githubusercontent.com/VORPCORE/VORP_txAdmin/main/vorp_recipe.yaml"
+    },
+    {
+        "engine": 3,
+        "name": "JRS Core",
+        "tags": ["redm", "roleplay"],
+        "description": "Free, open-source RedM RP framework (GPLv3): core, inventory, character creator, clothing, jobs, economy & more. English and Arabic.",
+        "url": "https://raw.githubusercontent.com/JRS-CORE/jrscore/main/recipe/jrscore.yaml"
     }
 ]
