@@ -11,10 +11,6 @@ tasks:
     subpath: resources
     dest: ./resources
 
-  # Remove the old chat resource
-  - action: remove_path
-    path: ./resources/[gameplay]/chat
-
   # Download default server.cfg for FiveM
   - action: download_file
     url: https://raw.githubusercontent.com/citizenfx/txAdmin-recipes/refs/heads/main/default-fivem/server.cfg
